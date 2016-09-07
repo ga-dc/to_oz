@@ -1,0 +1,16 @@
+mkdir House
+touch House/Dorothy House/Toto
+mkdir Oz
+touch Oz/Good-Witch-of-the-North Oz/Wicked-Witch-of-the-East Oz/Good-Witch-of-the-South Oz/Wicked-Witch-of-the-West
+rm Oz/Wicked-Witch-of-the-East
+mv House/Dorothy Oz/Dorothy
+touch Scarecrow Tin-Man Cowardly-Lion
+mkdir Emerald-City
+mv Scarecrow Emerald-City/Scarecrow
+mv Tin-Man Emerald-City/Tin-Man
+mv Cowardly-Lion Emerald-City/Cowardly-Lion
+touch Oz/Flying-Monkeys
+rm Oz/Wicked-Witch-of-the-West
+echo "a diploma" > Emerald-City/Scarecrow
+echo "a heart shaped watch" > Emerald-City/Tin-Man
+echo "a medal" > Emerald-City/Cowardly-Lion
