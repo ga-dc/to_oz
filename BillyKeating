@@ -1,0 +1,29 @@
+mkdir House
+touch Dorothy
+touch Toto
+mkdir Oz
+cd oz
+touch Good Witch of the North
+touch Wicked Witch of the East
+touch Good Witch of the South
+touch Wicked Witch of the West
+
+rm -r Wicked Witch of the East
+mv ../Dorothy/House/Oz
+
+touch Scarecrow
+touch Tin Man
+touch Cowardly Lion
+mkdir Emerald City
+mv Scarecrow /Emerald City
+mv Tinman /Emerald City
+mv Cowardly Lion /Emerald City
+
+cd Oz
+rm -r Wicked Witch of the West
+
+echo "a diploma" > /Scarecrow 
+echo "a heart shaped watch" > /Tin Man 
+echo "a medal" > /Cowardly Lion 
+
+
