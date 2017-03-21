@@ -1,0 +1,256 @@
+  Tue Mar 21 12:51:00 ~/wdi/myhomework/to_oz (master)
+$ mkdir House
+  Tue Mar 21 12:51:55 ~/wdi/myhomework/to_oz (master)
+$ ls
+House		readme.md	solution.txt	spec
+  Tue Mar 21 12:51:58 ~/wdi/myhomework/to_oz (master)
+$ mv House house
+  Tue Mar 21 12:52:59 ~/wdi/myhomework/to_oz (master)
+$ ls
+house		readme.md	solution.txt	spec
+  Tue Mar 21 12:53:00 ~/wdi/myhomework/to_oz (master)
+$ cd house
+  Tue Mar 21 12:53:18 ~/wdi/myhomework/to_oz/house (master)
+$ ls
+  Tue Mar 21 12:53:19 ~/wdi/myhomework/to_oz/house (master)
+$ touch dorothy
+  Tue Mar 21 12:53:25 ~/wdi/myhomework/to_oz/house (master)
+$ touch toto
+  Tue Mar 21 12:53:29 ~/wdi/myhomework/to_oz/house (master)
+$ ls
+dorothy	toto
+  Tue Mar 21 12:53:31 ~/wdi/myhomework/to_oz/house (master)
+$ cd ..
+  Tue Mar 21 12:53:36 ~/wdi/myhomework/to_oz (master)
+$ mkdir oz
+  Tue Mar 21 12:53:45 ~/wdi/myhomework/to_oz (master)
+$ cd o
+-bash: cd: o: No such file or directory
+  Tue Mar 21 12:54:01 ~/wdi/myhomework/to_oz (master)
+$ cd oz
+  Tue Mar 21 12:54:03 ~/wdi/myhomework/to_oz/oz (master)
+$ ls
+  Tue Mar 21 12:54:03 ~/wdi/myhomework/to_oz/oz (master)
+$ touch goodwitchNorth
+  Tue Mar 21 12:54:37 ~/wdi/myhomework/to_oz/oz (master)
+$ touch wickedwitchEast
+  Tue Mar 21 12:54:44 ~/wdi/myhomework/to_oz/oz (master)
+$ touch goodwitchSouth
+  Tue Mar 21 12:54:51 ~/wdi/myhomework/to_oz/oz (master)
+$ touch wickedwitchWest
+  Tue Mar 21 12:54:58 ~/wdi/myhomework/to_oz/oz (master)
+$ ls
+goodwitchNorth	goodwitchSouth	wickedwitchEast	wickedwitchWest
+  Tue Mar 21 12:54:59 ~/wdi/myhomework/to_oz/oz (master)
+$ cd ..
+  Tue Mar 21 12:55:05 ~/wdi/myhomework/to_oz (master)
+$ ls
+house		oz		readme.md	solution.txt	spec
+  Tue Mar 21 12:55:06 ~/wdi/myhomework/to_oz (master)
+$ rm wickedwitchEast
+rm: wickedwitchEast: No such file or directory
+  Tue Mar 21 12:56:54 ~/wdi/myhomework/to_oz (master)
+$ cd oz
+  Tue Mar 21 12:57:00 ~/wdi/myhomework/to_oz/oz (master)
+$ ls
+goodwitchNorth	goodwitchSouth	wickedwitchEast	wickedwitchWest
+  Tue Mar 21 12:57:03 ~/wdi/myhomework/to_oz/oz (master)
+$ rm wickedwitchEast
+  Tue Mar 21 12:57:09 ~/wdi/myhomework/to_oz/oz (master)
+$ ls
+goodwitchNorth	goodwitchSouth	wickedwitchWest
+  Tue Mar 21 12:57:10 ~/wdi/myhomework/to_oz/oz (master)
+$ cd .
+  Tue Mar 21 12:57:23 ~/wdi/myhomework/to_oz/oz (master)
+$ cd ..
+  Tue Mar 21 12:57:28 ~/wdi/myhomework/to_oz (master)
+$ mv ~/wdi/myhomework/to_oz/house/dorothy ~/wdi/myhomework/to_oz/oz
+  Tue Mar 21 12:59:20 ~/wdi/myhomework/to_oz (master)
+$ cd house
+  Tue Mar 21 12:59:26 ~/wdi/myhomework/to_oz/house (master)
+$ ls
+toto
+  Tue Mar 21 12:59:27 ~/wdi/myhomework/to_oz/house (master)
+$ cd ..
+  Tue Mar 21 12:59:29 ~/wdi/myhomework/to_oz (master)
+$ cd oz
+  Tue Mar 21 12:59:32 ~/wdi/myhomework/to_oz/oz (master)
+$ ls
+dorothy		goodwitchNorth	goodwitchSouth	wickedwitchWest
+  Tue Mar 21 12:59:33 ~/wdi/myhomework/to_oz/oz (master)
+$ cd ..
+  Tue Mar 21 13:03:19 ~/wdi/myhomework/to_oz (master)
+$ touch scarecrow
+  Tue Mar 21 13:03:30 ~/wdi/myhomework/to_oz (master)
+$ touch tinMan
+  Tue Mar 21 13:03:46 ~/wdi/myhomework/to_oz (master)
+$ touch cowardlyLion
+  Tue Mar 21 13:03:55 ~/wdi/myhomework/to_oz (master)
+$ mkdir emeraldCity
+  Tue Mar 21 13:04:05 ~/wdi/myhomework/to_oz (master)
+$ mv scarecrow tinMan cowardlyLion /emeraldCity
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+  Tue Mar 21 13:06:07 ~/wdi/myhomework/to_oz (master)
+$ ls
+cowardlyLion	house		readme.md	solution.txt	tinMan
+emeraldCity	oz		scarecrow	spec
+  Tue Mar 21 13:06:13 ~/wdi/myhomework/to_oz (master)
+$ cd emeraldCity
+  Tue Mar 21 13:06:22 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+  Tue Mar 21 13:06:23 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ cd ..
+  Tue Mar 21 13:06:47 ~/wdi/myhomework/to_oz (master)
+$ mv scarecrow ~/emeraldCity
+  Tue Mar 21 13:07:05 ~/wdi/myhomework/to_oz (master)
+$ ls
+cowardlyLion	house		readme.md	spec
+emeraldCity	oz		solution.txt	tinMan
+  Tue Mar 21 13:07:07 ~/wdi/myhomework/to_oz (master)
+$ cd emeraldCity
+  Tue Mar 21 13:07:13 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+  Tue Mar 21 13:07:14 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ cd
+  Tue Mar 21 13:07:38 ~
+$ ls
+Applications	Downloads	Music		World		funny_things
+Desktop		Library		Pictures	emeraldCity	wdi
+Documents	Movies		Public		fundamentals
+  Tue Mar 21 13:07:40 ~
+$ cd emeraldCity
+-bash: cd: emeraldCity: Not a directory
+  Tue Mar 21 13:07:54 ~
+$ open emeraldCity
+  Tue Mar 21 13:08:08 ~
+$ rm emeraldCity
+  Tue Mar 21 13:08:20 ~
+$ ls
+Applications	Downloads	Music		World		wdi
+Desktop		Library		Pictures	fundamentals
+Documents	Movies		Public		funny_things
+  Tue Mar 21 13:08:21 ~
+$ wdi
+-bash: wdi: command not found
+  Tue Mar 21 13:08:24 ~
+$ cd wdi
+  Tue Mar 21 13:08:27 ~/wdi
+$ ls
+Rakefile	installfest.yml	myhomework	sandbox
+exercises	lessons		projects
+  Tue Mar 21 13:08:29 ~/wdi
+$ cd myhomework
+  Tue Mar 21 13:08:34 ~/wdi/myhomework (master #)
+$ ls
+to_oz
+  Tue Mar 21 13:08:35 ~/wdi/myhomework (master #)
+$ cd to-Oz
+-bash: cd: to-Oz: No such file or directory
+  Tue Mar 21 13:08:41 ~/wdi/myhomework (master #)
+$ cd to_oz
+  Tue Mar 21 13:08:45 ~/wdi/myhomework/to_oz (master)
+$ ls
+cowardlyLion	house		readme.md	spec
+emeraldCity	oz		solution.txt	tinMan
+  Tue Mar 21 13:08:46 ~/wdi/myhomework/to_oz (master)
+$ cd emeraldCity
+  Tue Mar 21 13:08:53 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+  Tue Mar 21 13:08:56 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ touch scarecrow
+  Tue Mar 21 13:09:02 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+scarecrow
+  Tue Mar 21 13:09:04 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ cd ..
+  Tue Mar 21 13:09:09 ~/wdi/myhomework/to_oz (master)
+$ mv ~/wdi/myhomework/to_oz/cowardlyLion ~/wdi/myhomework/to_oz/emeraldCity/
+  Tue Mar 21 13:10:05 ~/wdi/myhomework/to_oz (master)
+$ ls
+emeraldCity	oz		solution.txt	tinMan
+house		readme.md	spec
+  Tue Mar 21 13:10:09 ~/wdi/myhomework/to_oz (master)
+$ cd emeraldCity
+  Tue Mar 21 13:10:16 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+cowardlyLion	scarecrow
+  Tue Mar 21 13:10:17 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ cd ..
+  Tue Mar 21 13:10:24 ~/wdi/myhomework/to_oz (master)
+$ mv ~/wdi/myhomework/to_oz/tinMan  ~/wdi/myhomework/to_oz/emeraldCity/
+  Tue Mar 21 13:10:45 ~/wdi/myhomework/to_oz (master)
+$ ls
+emeraldCity	oz		solution.txt
+house		readme.md	spec
+  Tue Mar 21 13:10:48 ~/wdi/myhomework/to_oz (master)
+$ cd emeraldCity
+  Tue Mar 21 13:10:58 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+cowardlyLion	scarecrow	tinMan
+  Tue Mar 21 13:10:59 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ cd ..
+  Tue Mar 21 13:11:51 ~/wdi/myhomework/to_oz (master)
+$ cd oz
+  Tue Mar 21 13:12:21 ~/wdi/myhomework/to_oz/oz (master)
+$ touch flyingMonkeys
+  Tue Mar 21 13:12:30 ~/wdi/myhomework/to_oz/oz (master)
+$ cd ..
+  Tue Mar 21 13:12:34 ~/wdi/myhomework/to_oz (master)
+$ ls
+emeraldCity	oz		solution.txt
+house		readme.md	spec
+  Tue Mar 21 13:12:37 ~/wdi/myhomework/to_oz (master)
+$ cd oz
+  Tue Mar 21 13:12:42 ~/wdi/myhomework/to_oz/oz (master)
+$ ls
+dorothy		flyingMonkeys	goodwitchNorth	goodwitchSouth	wickedwitchWest
+  Tue Mar 21 13:12:43 ~/wdi/myhomework/to_oz/oz (master)
+$ rm wickedwitchWest
+  Tue Mar 21 13:13:07 ~/wdi/myhomework/to_oz/oz (master)
+$ cd ..
+  Tue Mar 21 13:14:37 ~/wdi/myhomework/to_oz (master)
+$ cd emeraldCity
+  Tue Mar 21 13:14:53 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+cowardlyLion	scarecrow	tinMan
+  Tue Mar 21 13:14:56 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ echo "diploma">>scarecrow
+  Tue Mar 21 13:15:16 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+cowardlyLion	scarecrow	tinMan
+  Tue Mar 21 13:15:19 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ cd scarecrow
+-bash: cd: scarecrow: Not a directory
+  Tue Mar 21 13:15:24 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ echo diploma>>scarecrow
+  Tue Mar 21 13:15:54 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+cowardlyLion	scarecrow	tinMan
+  Tue Mar 21 13:15:56 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ cd scarecrow
+-bash: cd: scarecrow: Not a directory
+  Tue Mar 21 13:16:01 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls -a
+.		..		cowardlyLion	scarecrow	tinMan
+  Tue Mar 21 13:16:11 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ echo diploma >> scarecrow
+  Tue Mar 21 13:16:31 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+cowardlyLion	scarecrow	tinMan
+  Tue Mar 21 13:16:33 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ cd scarecrow
+-bash: cd: scarecrow: Not a directory
+  Tue Mar 21 13:16:37 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ echo "diploma" >> scarecrow
+  Tue Mar 21 13:17:11 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ ls
+cowardlyLion	scarecrow	tinMan
+  Tue Mar 21 13:17:15 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ open scarecrow
+  Tue Mar 21 13:17:23 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ echo medal>>cowardlyLion
+  Tue Mar 21 13:18:14 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ open cowardlyLion
+  Tue Mar 21 13:18:19 ~/wdi/myhomework/to_oz/emeraldCity (master)
+$ echo heartWatch>>tinMan
