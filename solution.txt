@@ -1,0 +1,327 @@
+Last login: Wed Mar 22 06:56:45 on ttys000
+  Wed Mar 22 07:01:08 ~
+$ ls
+Applications	Dropbox		Movies		Rakefile	post.txt
+Desktop		Fundamentals	Music		World		wdi
+Documents	Google Drive	Pictures	funny_things
+Downloads	Library		Public		installfest.yml
+  Wed Mar 22 07:01:10 ~
+$ git clone git@github.com:ammaralasadi1/to_oz.git
+Cloning into 'to_oz'...
+remote: Counting objects: 26, done.
+remote: Total 26 (delta 0), reused 0 (delta 0), pack-reused 26
+Receiving objects: 100% (26/26), 4.31 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (7/7), done.
+  Wed Mar 22 07:01:24 ~
+$ ls
+Applications	Dropbox		Movies		Rakefile	post.txt
+Desktop		Fundamentals	Music		World		to_oz
+Documents	Google Drive	Pictures	funny_things	wdi
+Downloads	Library		Public		installfest.yml
+  Wed Mar 22 07:01:35 ~
+$ cd to_oz/
+  Wed Mar 22 07:01:44 ~/to_oz (master)
+$ ls
+readme.md	solution.txt	spec
+  Wed Mar 22 07:01:45 ~/to_oz (master)
+$ pwd
+/Users/ammaralasadi/to_oz
+  Wed Mar 22 07:02:59 ~/to_oz (master)
+$ mkdir House
+  Wed Mar 22 07:03:14 ~/to_oz (master)
+$ ls
+House		solution.txt
+readme.md	spec
+  Wed Mar 22 07:03:16 ~/to_oz (master)
+$ ls
+House		solution.txt
+readme.md	spec
+  Wed Mar 22 07:03:51 ~/to_oz (master)
+$ ls -la
+total 16
+drwxr-xr-x   8 ammaralasadi  staff   272 Mar 22 07:03 .
+drwxr-xr-x+ 44 ammaralasadi  staff  1496 Mar 22 07:01 ..
+drwxr-xr-x  12 ammaralasadi  staff   408 Mar 22 07:01 .git
+-rw-r--r--   1 ammaralasadi  staff    90 Mar 22 07:01 .travis.yml
+drwxr-xr-x   2 ammaralasadi  staff    68 Mar 22 07:03 House
+-rw-r--r--   1 ammaralasadi  staff  1223 Mar 22 07:01 readme.md
+-rw-r--r--   1 ammaralasadi  staff     0 Mar 22 07:01 solution.txt
+drwxr-xr-x   3 ammaralasadi  staff   102 Mar 22 07:01 spec
+  Wed Mar 22 07:04:02 ~/to_oz (master)
+$ cd specs
+-bash: cd: specs: No such file or directory
+  Wed Mar 22 07:04:22 ~/to_oz (master)
+$ pwd
+/Users/ammaralasadi/to_oz
+  Wed Mar 22 07:04:26 ~/to_oz (master)
+$ cd spec/
+  Wed Mar 22 07:04:33 ~/to_oz/spec (master)
+$ ls
+oz_spec.js
+  Wed Mar 22 07:04:35 ~/to_oz/spec (master)
+$ pwd
+/Users/ammaralasadi/to_oz/spec
+  Wed Mar 22 07:04:58 ~/to_oz/spec (master)
+$ cd ..
+  Wed Mar 22 07:05:06 ~/to_oz (master)
+$ ls
+House		solution.txt
+readme.md	spec
+  Wed Mar 22 07:05:08 ~/to_oz (master)
+$ cd House/
+  Wed Mar 22 07:05:16 ~/to_oz/House (master)
+$ touch dorthey.txt tot.txt
+  Wed Mar 22 07:05:51 ~/to_oz/House (master)
+$ ls
+dorthey.txt	tot.txt
+  Wed Mar 22 07:05:52 ~/to_oz/House (master)
+$ mkdir Oz
+  Wed Mar 22 07:06:27 ~/to_oz/House (master)
+$ ls
+Oz		dorthey.txt	tot.txt
+  Wed Mar 22 07:06:29 ~/to_oz/House (master)
+$ cd Oz
+  Wed Mar 22 07:06:58 ~/to_oz/House/Oz (master)
+$ ls
+  Wed Mar 22 07:06:59 ~/to_oz/House/Oz (master)
+$ touch Good_witchof_the_North.txt Wicked_witch_of_the_East.txt Good_witch_of_the_south.txt Wicked_witch_of_the_West.txt
+  Wed Mar 22 07:09:25 ~/to_oz/House/Oz (master)
+$ ls
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Wicked_witch_of_the_East.txt
+Wicked_witch_of_the_West.txt
+  Wed Mar 22 07:09:27 ~/to_oz/House/Oz (master)
+$ rm Wicked_witch_of_the_East.txt 
+  Wed Mar 22 07:10:08 ~/to_oz/House/Oz (master)
+$ ls
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Wicked_witch_of_the_West.txt
+  Wed Mar 22 07:10:11 ~/to_oz/House/Oz (master)
+$ mv ls
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+  Wed Mar 22 07:10:39 ~/to_oz/House/Oz (master)
+$ ls
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Wicked_witch_of_the_West.txt
+  Wed Mar 22 07:10:41 ~/to_oz/House/Oz (master)
+$ cd ..
+  Wed Mar 22 07:10:59 ~/to_oz/House (master)
+$ ls
+Oz		dorthey.txt	tot.txt
+  Wed Mar 22 07:11:00 ~/to_oz/House (master)
+$ mv dorthey.tx Oz/
+mv: rename dorthey.tx to Oz/dorthey.tx: No such file or directory
+  Wed Mar 22 07:14:26 ~/to_oz/House (master)
+$ ls
+Oz		dorthey.txt	tot.txt
+  Wed Mar 22 07:14:27 ~/to_oz/House (master)
+$ oz
+-bash: oz: command not found
+  Wed Mar 22 07:14:36 ~/to_oz/House (master)
+$ cd Oz/
+  Wed Mar 22 07:14:43 ~/to_oz/House/Oz (master)
+$ ls
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Wicked_witch_of_the_West.txt
+  Wed Mar 22 07:14:45 ~/to_oz/House/Oz (master)
+$ cd ..
+  Wed Mar 22 07:15:15 ~/to_oz/House (master)
+$ ls
+Oz		dorthey.txt	tot.txt
+  Wed Mar 22 07:15:19 ~/to_oz/House (master)
+$ mv dorthey.txt Oz/
+  Wed Mar 22 07:16:03 ~/to_oz/House (master)
+$ ls
+Oz	tot.txt
+  Wed Mar 22 07:16:13 ~/to_oz/House (master)
+$ ls
+Oz	tot.txt
+  Wed Mar 22 07:18:05 ~/to_oz/House (master)
+$ cd ..
+  Wed Mar 22 07:18:11 ~/to_oz (master)
+$ ls
+House		solution.txt
+readme.md	spec
+  Wed Mar 22 07:18:13 ~/to_oz (master)
+$ cd spec/
+  Wed Mar 22 07:18:36 ~/to_oz/spec (master)
+$ ls
+oz_spec.js
+  Wed Mar 22 07:18:38 ~/to_oz/spec (master)
+$ ls
+oz_spec.js
+  Wed Mar 22 07:19:17 ~/to_oz/spec (master)
+$ atom oz_spec.js 
+  Wed Mar 22 07:19:31 ~/to_oz/spec (master)
+$ ls
+oz_spec.js
+  Wed Mar 22 07:23:28 ~/to_oz/spec (master)
+$ cd ..
+  Wed Mar 22 07:23:33 ~/to_oz (master)
+$ ls
+House		solution.txt
+readme.md	spec
+  Wed Mar 22 07:23:35 ~/to_oz (master)
+$ cd House/
+  Wed Mar 22 07:23:59 ~/to_oz/House (master)
+$ ls
+Oz	tot.txt
+  Wed Mar 22 07:24:02 ~/to_oz/House (master)
+$ cd Oz/
+  Wed Mar 22 07:24:07 ~/to_oz/House/Oz (master)
+$ ls
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Wicked_witch_of_the_West.txt
+dorthey.txt
+  Wed Mar 22 07:24:08 ~/to_oz/House/Oz (master)
+$ touch Srarecrow.txt Tin_man.txt Cowardly_Lion.txt
+  Wed Mar 22 07:25:38 ~/to_oz/House/Oz (master)
+$ ls
+Cowardly_Lion.txt
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Srarecrow.txt
+Tin_man.txt
+Wicked_witch_of_the_West.txt
+dorthey.txt
+  Wed Mar 22 07:25:47 ~/to_oz/House/Oz (master)
+$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+  Wed Mar 22 07:25:56 ~/to_oz/House/Oz (master)
+$ mkdir Emerald_City
+  Wed Mar 22 07:26:10 ~/to_oz/House/Oz (master)
+$ mv Cowardly_Lion.txt Good_witch_of_the_south.txt Good_witchof_the_North.txt Srarecrow.txt Tin_man.txt Wicked_witch_of_the_West.txt dorthey.txt Emerald_City/
+  Wed Mar 22 07:28:01 ~/to_oz/House/Oz (master)
+$ ls
+Emerald_City
+  Wed Mar 22 07:28:03 ~/to_oz/House/Oz (master)
+$ cd Emerald_City/
+  Wed Mar 22 07:28:12 ~/to_oz/House/Oz/Emerald_City (master)
+$ pwd
+/Users/ammaralasadi/to_oz/House/Oz/Emerald_City
+  Wed Mar 22 07:28:29 ~/to_oz/House/Oz/Emerald_City (master)
+$ cd ..
+  Wed Mar 22 07:28:34 ~/to_oz/House/Oz (master)
+$ ls
+Emerald_City
+  Wed Mar 22 07:28:48 ~/to_oz/House/Oz (master)
+$ cd ..
+  Wed Mar 22 07:28:52 ~/to_oz/House (master)
+$ ls
+Oz	tot.txt
+  Wed Mar 22 07:28:53 ~/to_oz/House (master)
+$ cd Oz/
+  Wed Mar 22 07:28:58 ~/to_oz/House/Oz (master)
+$ ls
+Emerald_City
+  Wed Mar 22 07:29:00 ~/to_oz/House/Oz (master)
+$ touch Flying_Monkeys.txt
+  Wed Mar 22 07:29:28 ~/to_oz/House/Oz (master)
+$ cd Emerald_City/
+  Wed Mar 22 07:31:23 ~/to_oz/House/Oz/Emerald_City (master)
+$ ls
+Cowardly_Lion.txt
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Srarecrow.txt
+Tin_man.txt
+Wicked_witch_of_the_West.txt
+dorthey.txt
+  Wed Mar 22 07:31:24 ~/to_oz/House/Oz/Emerald_City (master)
+$ rm Wicked_witch_of_the_West.txt 
+  Wed Mar 22 07:31:41 ~/to_oz/House/Oz/Emerald_City (master)
+$ ls
+Cowardly_Lion.txt
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Srarecrow.txt
+Tin_man.txt
+dorthey.txt
+  Wed Mar 22 07:31:42 ~/to_oz/House/Oz/Emerald_City (master)
+$ echo "Here is you diploam!" Srarecrow.txt 
+-bash: !": event not found
+  Wed Mar 22 07:33:09 ~/to_oz/House/Oz/Emerald_City (master)
+$ aton Srarecrow.txt 
+-bash: aton: command not found
+  Wed Mar 22 07:33:22 ~/to_oz/House/Oz/Emerald_City (master)
+$ atom Srarecrow.txt 
+  Wed Mar 22 07:33:30 ~/to_oz/House/Oz/Emerald_City (master)
+$ pwd
+/Users/ammaralasadi/to_oz/House/Oz/Emerald_City
+  Wed Mar 22 07:33:59 ~/to_oz/House/Oz/Emerald_City (master)
+$ echo "Diploam" > Srarecrow.txt 
+  Wed Mar 22 07:35:21 ~/to_oz/House/Oz/Emerald_City (master)
+$ atom Srarecrow.txt 
+  Wed Mar 22 07:35:32 ~/to_oz/House/Oz/Emerald_City (master)
+$ echo "Haert Shapeed Watch" > Tin_man.txt 
+  Wed Mar 22 07:37:09 ~/to_oz/House/Oz/Emerald_City (master)
+$ atom Tin_man.txt 
+  Wed Mar 22 07:37:15 ~/to_oz/House/Oz/Emerald_City (master)
+$ ls
+Cowardly_Lion.txt
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Srarecrow.txt
+Tin_man.txt
+dorthey.txt
+  Wed Mar 22 07:38:04 ~/to_oz/House/Oz/Emerald_City (master)
+$ touch lion.tx
+  Wed Mar 22 07:38:20 ~/to_oz/House/Oz/Emerald_City (master)
+$ echo "Medal" > lion.tx 
+  Wed Mar 22 07:38:48 ~/to_oz/House/Oz/Emerald_City (master)
+$ atom lion.tx 
+-bash: /usr/local/bin/atom: No such file or directory
+  Wed Mar 22 07:38:55 ~/to_oz/House/Oz/Emerald_City (master)
+$ atom lion.tx 
+-bash: /usr/local/bin/atom: No such file or directory
+  Wed Mar 22 07:39:11 ~/to_oz/House/Oz/Emerald_City (master)
+$ ls
+Cowardly_Lion.txt
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Srarecrow.txt
+Tin_man.txt
+dorthey.txt
+lion.tx
+  Wed Mar 22 07:39:24 ~/to_oz/House/Oz/Emerald_City (master)
+$ atom lion.tx 
+-bash: /usr/local/bin/atom: No such file or directory
+  Wed Mar 22 07:39:31 ~/to_oz/House/Oz/Emerald_City (master)
+$ ls
+Cowardly_Lion.txt
+Good_witch_of_the_south.txt
+Good_witchof_the_North.txt
+Srarecrow.txt
+Tin_man.txt
+dorthey.txt
+lion.tx
+  Wed Mar 22 07:39:44 ~/to_oz/House/Oz/Emerald_City (master)
+$ open lion.tx 
+No application knows how to open /Users/ammaralasadi/to_oz/House/Oz/Emerald_City/lion.tx.
+  Wed Mar 22 07:39:51 ~/to_oz/House/Oz/Emerald_City (master)
+$ cd ..
+  Wed Mar 22 07:40:32 ~/to_oz/House/Oz (master)
+$ ls
+Emerald_City		Flying_Monkeys.txt
+  Wed Mar 22 07:40:34 ~/to_oz/House/Oz (master)
+$ cd ..
+  Wed Mar 22 07:40:39 ~/to_oz/House (master)
+$ ls
+Oz	tot.txt
+  Wed Mar 22 07:40:48 ~/to_oz/House (master)
+$ cd ..
+  Wed Mar 22 07:40:51 ~/to_oz (master)
+$ ls
+House		solution.txt
+readme.md	spec
+  Wed Mar 22 07:40:53 ~/to_oz (master)
+$ atom solution.txt 
+-bash: /usr/local/bin/atom: No such file or directory
+  Wed Mar 22 07:41:24 ~/to_oz (master)
+$ 
