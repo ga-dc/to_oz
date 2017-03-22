@@ -1,0 +1,26 @@
+To Oz? To Oz!
+1. mkdir House
+2. touch Dorothy Toto
+3.mkdir Oz
+4. touch GoodWitchOfTheNorth	WickedWitchOfTheEast GoodWitchOfTheSouth	WickedWitchOfTheWest
+
+Ding Dong! The Witch Is Dead
+1. rm WickedWitchOfTheEast
+2. cd ..
+   mv Dorothy Oz
+
+
+Follow the Yellow Brick Road   
+1. touch Scarecrow
+2. touch TinMan
+3. touch CowardlyLion
+4. mkdir EmeraldCity
+5.mv Scarecrow TinMan CowardlyLion EmeraldCity/
+
+You Must Kill The Witch
+1. touch FlyingMonkeys 
+2. rm WickedWitchOfTheWest
+3. i. echo diploma >> Scarecrow
+   ii. echo heartshapedwatch >> TinMan
+   iii. echo medal >> Lion
+   
