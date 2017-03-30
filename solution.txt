@@ -1,0 +1,34 @@
+cd /to_oz/
+
+mkdir house
+
+touch Dorothy
+
+touch Toto
+
+touch House
+
+mkdir to_oz/Oz
+
+cd to_oz/Oz
+touch Good Witch of the North
+touch Good Witch of the South
+touch Wicked Witch of the East
+touch Wicked Witch of the West
+
+rm Good Witch of the East
+mv to_oz/House/Dorothy to_oz/Oz/
+
+cd to_oz
+touch Scarecrow
+touch Tin Man
+touch Cowardly Lion
+mkdir Emerald City
+mv Scarecrow, Tin Man, Cowardly Lion, to_oz/Emerald City/
+
+cd to_oz/Oz
+touch Flying Monkeys
+rm Wicked Witch of the West
+echo "diploma" >>Scarecrow
+echo "a heart shaped watch" >> Tin Man
+echo "medal" Lion
