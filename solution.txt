@@ -1,0 +1,55 @@
+cd ~
+ls
+cd wdi
+ls
+Mkdir house
+ls
+cd house
+touch dorothy.txt
+touch dorothy.txt
+mkdir oz
+cd oz
+mkdir “Good Witch of the North”
+mkdir “Wicked Witch of the East ”
+mkdir “Good Witch of the South”
+mkdir “ Wicked Witch of the west ”
+cd "Good Witch of the North"
+touch north.txt
+ls
+cd ../
+cd "Wicked Witch of the East"
+touch east.txt
+cd ../
+ls
+cd "Good  Witch of the south"
+touch south.txt
+ls
+cd ../
+cd "Wicked Witch of the west"
+touch west.txt
+ls
+cd ../
+rm -r "Wicked Witch of the East"
+ls
+cd ../
+ls
+mv dorothy.txt oz
+ls
+cd oz
+ls
+cd ../
+touch Scarecrow.txt
+touch "Tin Man".txt
+touch "Cowardly Lion".txt
+ls
+mkdir "Emerald City"
+ls
+mv Scarecrow.txt "Emerald City"
+mv "Tin Man".txt "Emerald City"
+mv "Cowardly Lion ".txt "Emerald City"
+cd oz
+mkdir "Flying Monkeys"
+rm -r "Wicked Witch of the west"
+echo "diploma" Scarecrow.txt
+echo "heart shaped watch" "Tin Man".txt
+echo "medal" "Cowardly Lion ".txt
