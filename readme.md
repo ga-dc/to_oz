@@ -2,8 +2,7 @@
 
 Follow the steps below.
 
-Copy and paste your terminal commands into the solution.txt file provided
-in this repository.
+Keep track of your commands in a separate text file and when you are finished, paste this list of your commands into [an issue on this repository](https://github.com/ga-wdi-exercises/to_oz/issues).
 
 [Queue the music](http://thewizardofoz.warnerbros.com/)
 
